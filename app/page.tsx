@@ -71,10 +71,10 @@ function waLink(message: string) {
 
 function Logo() {
   return (
-    <a className="brand" href="#beranda" aria-label="Aditya Jaya Ban">
+    <a className="brand" href="#beranda" aria-label="Aditya Jaya Tread">
       <span className="brand-mark">AJ</span>
       <span className="brand-copy">
-        <strong>ADITYA JAYA <b>BAN</b></strong>
+        <strong>Aditya Jaya Tread <b>BAN</b></strong>
         <small>TRUCK TIRE SOLUTIONS</small>
       </span>
     </a>
@@ -167,7 +167,7 @@ export default function HomePage() {
 
             <a
               className="header-cta"
-              href={waLink("Halo Aditya Jaya Ban, saya ingin konsultasi.")}
+              href={waLink("Halo Aditya Jaya Tread, saya ingin konsultasi.")}
               target="_blank"
               rel="noreferrer"
             >
@@ -181,7 +181,7 @@ export default function HomePage() {
           <div className="hero-text">
             <span className="hero-kicker">
               <span />
-              ADITYA JAYA BAN · SOLUSI BAN NIAGA
+              Aditya Jaya Tread · SOLUSI BAN NIAGA
             </span>
 
             <h1>
@@ -201,7 +201,7 @@ export default function HomePage() {
               </a>
               <a
                 href={waLink(
-                  "Halo Aditya Jaya Ban, saya ingin bertanya tentang produk ban."
+                  "Halo Aditya Jaya Tread, saya ingin bertanya tentang produk ban."
                 )}
                 target="_blank"
                 rel="noreferrer"
@@ -214,7 +214,7 @@ export default function HomePage() {
           </div>
 
           <a href="#produk" className="hero-scroll">
-            <span>JELAJAHI ADITYA JAYA BAN</span>
+            <span>JELAJAHI Aditya Jaya Tread</span>
             <ChevronDown size={17} />
           </a>
         </div>
@@ -388,7 +388,7 @@ export default function HomePage() {
         <div className="container about-layout">
           <div className="about-photo">
             <div className="about-photo-label">
-              <span>ADITYA JAYA BAN</span>
+              <span>Aditya Jaya Tread</span>
               <strong>Partner kebutuhan ban kendaraan niaga.</strong>
             </div>
           </div>
@@ -401,7 +401,7 @@ export default function HomePage() {
               <span>Menjaga perjalanan.</span>
             </h2>
             <p>
-              Aditya Jaya Ban hadir untuk membantu memenuhi kebutuhan ban truk
+              Aditya Jaya Tread hadir untuk membantu memenuhi kebutuhan ban truk
               kanisir. Kami berfokus pada pilihan ukuran yang sesuai,
               kemudahan konsultasi, dan pelayanan untuk kebutuhan kendaraan
               niaga.
@@ -427,7 +427,7 @@ export default function HomePage() {
             <a
               className="text-link"
               href={waLink(
-                "Halo Aditya Jaya Ban, saya ingin mengetahui lebih lanjut tentang layanan Anda."
+                "Halo Aditya Jaya Tread, saya ingin mengetahui lebih lanjut tentang layanan Anda."
               )}
               target="_blank"
               rel="noreferrer"
@@ -498,7 +498,7 @@ export default function HomePage() {
       <section className="contact-section" id="kontak">
         <div className="container contact-inner">
           <div>
-            <span className="eyebrow">HUBUNGI ADITYA JAYA BAN</span>
+            <span className="eyebrow">Aditya Jaya Tread</span>
             <h2>
               Ada kebutuhan ban
               <br />
@@ -512,7 +512,7 @@ export default function HomePage() {
 
           <a
             href={waLink(
-              "Halo Aditya Jaya Ban, saya ingin konsultasi kebutuhan ban untuk armada saya."
+              "Halo Aditya Jaya Tread, saya ingin konsultasi kebutuhan ban untuk armada saya."
             )}
             target="_blank"
             rel="noreferrer"
@@ -545,7 +545,7 @@ export default function HomePage() {
           <div className="footer-navigation">
             <span>HUBUNGI</span>
             <a
-              href={waLink("Halo Aditya Jaya Ban, saya ingin bertanya.")}
+              href={waLink("Halo Aditya Jaya Tread, saya ingin bertanya.")}
               target="_blank"
               rel="noreferrer"
             >
@@ -557,7 +557,7 @@ export default function HomePage() {
 
         <div className="container footer-bottom">
           <span>
-            © {new Date().getFullYear()} Aditya Jaya Ban. Hak cipta dilindungi.
+            © {new Date().getFullYear()} Aditya Jaya Tread. Hak cipta dilindungi.
           </span>
           <a href="#beranda">Kembali ke atas ↑</a>
         </div>
@@ -597,7 +597,7 @@ export default function HomePage() {
             <a
               className="button button-yellow modal-button"
               href={waLink(
-                `Halo Aditya Jaya Ban, saya ingin bertanya tentang ban ukuran ${selectedProduct.size}.`
+                `Halo Aditya Jaya Tread, saya ingin bertanya tentang ban ukuran ${selectedProduct.size}.`
               )}
               target="_blank"
               rel="noreferrer"
